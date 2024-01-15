@@ -1,28 +1,20 @@
-/* ------------ CSS PROPERTIES ------------*/
-
-/* Funzionalità di centralizzazione tramite :root
-:root {
-    --space-sm: **px/rem;
-    --space-md: **px/rem;
-    --space-lg: **px/rem;
-}
----> proprietà: var(--space-md)
-*/
-
-/* ------------ CSS RESET ------------*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
 }
 
-/* Inserimento font alternativo su css
-* {
-    font-family: 'Roboto', sans-serif;
+div.card-body {
+    height: 125px;
 }
-*/
 
-/* ------------ UTILITIES ------------ */
+.card {
+    border-radius: 0;
+    border: 0px ;
+}
 
-.container {
+body {
+    background-color: rgb(238, 238, 232);
 }

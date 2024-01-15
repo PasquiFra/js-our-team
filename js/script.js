@@ -2,6 +2,7 @@ console.log("JS OK");
 
 // elementi del DOM
 
+const cardsArea = document.getElementById("team-cards");
 
 // Array dati
 
@@ -40,4 +41,23 @@ const teamMembers = [
 
 for (member of teamMembers){
     console.log(member)
+}
+
+// stampo in pagina sottoforma di stringa
+
+for (let i=0 ; i < teamMembers.length ; i++){
+    
+    const card = 
+    `
+    <div class="col-4 p-3">
+        <div class="card">
+            <img src="./img/${teamMembers[i].photo}" class="card-img-top">
+            <div class="card-body text-center flex-center">
+                <h3 class="card-text w-100">${teamMembers[i].name}</h3>
+                <div class="card-text">${teamMembers[i].position}</div>
+            </div>
+        </div>
+    </div>
+    `;
+    cardsArea.innerHTML += card;
 }
