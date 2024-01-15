@@ -1,0 +1,28 @@
+/* ------------ CSS PROPERTIES ------------*/
+
+/* Funzionalità di centralizzazione tramite :root
+:root {
+    --space-sm: **px/rem;
+    --space-md: **px/rem;
+    --space-lg: **px/rem;
+}
+---> proprietà: var(--space-md)
+*/
+
+/* ------------ CSS RESET ------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Inserimento font alternativo su css
+* {
+    font-family: 'Roboto', sans-serif;
+}
+*/
+
+/* ------------ UTILITIES ------------ */
+
+.container {
+}
