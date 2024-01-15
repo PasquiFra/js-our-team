@@ -1,3 +1,8 @@
+:root {
+    --bs-border-radius: 0;
+}
+
+
 .flex-center {
     display: flex;
     justify-content: center;
@@ -12,6 +17,7 @@ div.card-body {
 
 .card {
     border-radius: 0;
+
     border: 0px ;
 }
 
